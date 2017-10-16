@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "inlineSourceMap": true,
+      "module": "commonjs",
+      "target": "es6",
+      "removeComments": true,
+      "jsx": "react",
+      "experimentalDecorators": true
+  },
+  "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+  ],
+  "exclude": [
+      "./static/",
+      "./node_modules/"
+  ]
+}
