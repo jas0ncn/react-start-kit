@@ -67,7 +67,6 @@ npm run build
 ├── static               # static files folder
 ├── tsconfig.json        # TypeScript configuration
 ├── tslint.json          # tslint rules
-├── typings              # typings definitions
 └── webpack              # webpack configuration
 ```
 
