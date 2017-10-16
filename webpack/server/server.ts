@@ -1,5 +1,3 @@
-/// <reference path="../../typings/index.d.ts" />
-
 import * as path from 'path';
 import * as express from 'express';
 import * as webpack from 'webpack';
