@@ -2,8 +2,8 @@ import * as path from 'path';
 import * as express from 'express';
 import * as webpack from 'webpack';
 
-export function serve(port?: number) {
-    port = port || process.env.PORT;
+export function serve(p?: number) {
+    const port = p.toString() || process.env.PORT;
 
     const app = express();
 
