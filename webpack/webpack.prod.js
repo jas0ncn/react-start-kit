@@ -37,7 +37,7 @@ module.exports = {
         }]
     },
   	output: {
-        filename: '[name].[hash:10].js',
+        filename: 'static/js/[name].[hash:10].js',
         path: path.resolve(__dirname, '../dist/'),
         publicPath: '/'
   	},
